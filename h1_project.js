@@ -9,7 +9,7 @@ var generateNewCard = (imageData) =>
                 <div class="col-sm-12 col-md-6 col-lg-4 mt-3 mb-3" id=${imageData.id}>
                     <div class="card" style="height: 35rem;">
                         <div class="card-header col-4 d-flex justify-content-end gap-1 ms-7">
-                            <button type="button"  id="Edit" class="btn btn-outline-success ps-0 pe-0"><abbr title="Edit"><i class="fa-solid fa-pencil-alt"></i></abbr></button>
+                            <button type="button" id="Edit" class="btn btn-outline-success ps-0 pe-0"><abbr title="Edit"><i class="fa-solid fa-pencil-alt"></i></abbr></button>
 
                             <button type="button" id="Thrash" class="btn btn-outline-danger ps-0 pe-0" ><abbr title="Thrash"><i class="fa-solid fa-trash-alt" ></i></abbr></button>
                         </div>
@@ -99,7 +99,7 @@ saveChanges.addEventListener("click", () =>
         }
     });
 
-    /*
+
     imageBody.addEventListener("click", (event) => {
         const clickedElement = event.target;
     
@@ -189,4 +189,3 @@ saveChanges.addEventListener("click", () =>
         return editButton;
     }
     
-*/
